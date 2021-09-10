@@ -16,7 +16,8 @@ jobs:
         with:
           dbname: test
           commands: |
-            env            
+            env
+            psql --version            
             echo 'Migration has been completed'
           download_artifacts: true
           observation_interval: "10"
