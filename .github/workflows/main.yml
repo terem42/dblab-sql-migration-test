@@ -23,7 +23,7 @@ jobs:
           observation_interval: "10"
           max_lock_duration: "1"
           max_duration: "600"
-          keep_clone: false
+        keep_clone: false
         env:
           DLMC_CI_ENDPOINT: ${{ secrets.DLMC_CI_ENDPOINT }}
           DLMC_VERIFICATION_TOKEN: ${{ secrets.DLMC_VERIFICATION_TOKEN }}
