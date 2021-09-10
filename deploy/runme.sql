@@ -1,7 +1,4 @@
-BEGIN
-
 DROP TABLE IF EXISTS links;
-
 
 CREATE TABLE links (
 	id SERIAL PRIMARY KEY,
@@ -11,7 +8,6 @@ CREATE TABLE links (
         last_update DATE
 );
 
-COMMIT;
 
 BEGIN
 
