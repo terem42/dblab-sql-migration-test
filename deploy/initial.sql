@@ -26,8 +26,7 @@ SET row_security = off;
 
 CREATE SCHEMA metric_helpers;
 
-GRANT postgres TO ci_terem42;
-ALTER SCHEMA metric_helpers OWNER TO postgres;
+--ALTER SCHEMA metric_helpers OWNER TO postgres;
 
 --
 -- Name: user_management; Type: SCHEMA; Schema: -; Owner: postgres
@@ -36,7 +35,7 @@ ALTER SCHEMA metric_helpers OWNER TO postgres;
 CREATE SCHEMA user_management;
 
 
-ALTER SCHEMA user_management OWNER TO postgres;
+--ALTER SCHEMA user_management OWNER TO postgres;
 
 --
 -- Name: pg_stat_statements; Type: EXTENSION; Schema: -; Owner: -
