@@ -26,7 +26,7 @@ SET row_security = off;
 
 CREATE SCHEMA metric_helpers;
 
-GRANT postgres TO terem;
+GRANT postgres TO root;
 ALTER SCHEMA metric_helpers OWNER TO postgres;
 
 --
