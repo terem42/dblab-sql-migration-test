@@ -17,7 +17,7 @@ jobs:
           dbname: test
           commands: |
             env
-            psql --version            
+            psql -d ${PGDATABASE} -h ${PGHOST} -p ${PGPORT} -U ${PGUSER} -f deploy/runme.sql
             echo 'Migration has been completed'
           download_artifacts: true
           observation_interval: "10"
