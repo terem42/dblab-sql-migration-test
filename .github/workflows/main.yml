@@ -16,8 +16,7 @@ jobs:
         with:
           dbname: test
           commands: |
-            env
-            sqitch deploy --verbose
+            env            
             echo 'Migration has been completed'
           download_artifacts: true
           observation_interval: "10"
