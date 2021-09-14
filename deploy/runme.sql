@@ -1,5 +1,1 @@
-BEGIN;
-INSERT INTO links (id, url, name)
-VALUES(3, 'https://google.com','Google');
-
-COMMIT;
+CREATE INDEX pgbench_accounts_abal ON pgbench_accounts(abalance);
